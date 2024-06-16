@@ -1,4 +1,3 @@
-```markdown
 # プロジェクト名
 
 このプロジェクトは、Next.jsを使用したフロントエンドとFastAPIを使用したバックエンドを持つWebアプリケーションです。
@@ -101,5 +100,3 @@
    ```bash
    uvicorn main:app --reload
    ```
-
-```
