@@ -1,4 +1,3 @@
-```markdown
 # プロジェクト名
 
 このプロジェクトは、Next.jsを使用したフロントエンドとFastAPIを使用したバックエンドを持つWebアプリケーションです。
@@ -101,25 +100,3 @@
    ```bash
    uvicorn main:app --reload
    ```
-
-## Docker
-
-このプロジェクトはDockerを使用してコンテナ化されています。
-
-### Dockerファイル
-
-- `Dockerfile.frontend`: フロントエンドサービスのためのDockerfileです。
-- `Dockerfile.backend`: バックエンドサービスのためのDockerfileです。
-- `docker-compose.yml`: フロントエンドとバックエンドサービスを一緒に起動するためのDocker Compose設定ファイルです。
-
-### セットアップと実行
-
-1. Docker Composeを使用してサービスを起動します。
-   ```bash
-   docker-compose up --build
-   ```
-
-## ライセンス
-
-このプロジェクトはMITライセンスの下で公開されています。詳細はLICENSEファイルをご覧ください。
-```
